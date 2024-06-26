@@ -182,7 +182,7 @@ go_reduce <-
             dplyr::rename(
                 parent_id = .data$parent,
                 parent_term = .data$parentTerm,
-                parent_sim_score = .data$parentSimScore
+                parent_sim_score = .data$termDispensability
             )
     }
 
